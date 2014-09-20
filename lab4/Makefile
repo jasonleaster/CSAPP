@@ -8,4 +8,4 @@ SRC=cache-test-skel.c
 .FORCE:
 
 cache-test: .FORCE $(SRC) $(TEST_CACHE)
-	gcc -Wall $(SRC) $(TEST_CACHE) -o $@
+	gcc -Wall $(SRC) $(TEST_CACHE) -g -o $@

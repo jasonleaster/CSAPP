@@ -5,21 +5,21 @@ Lab 4 - Mystery Caches
 
 Mystery Cache Geometries:
 mystery0:
-    block size = 64 bytes
-    cache size = 262144 bytes
-    associativity = 1
+    block size =
+    cache size =
+    associativity =
 mystery1:
-    block size = 8 bytes
-    cache size = 16384 bytes
-    associativity = 4
+    block size =
+    cache size =
+    associativity =
 mystery2:
-    block size = 16 bytes
-    cache size = 65536 bytes
-    associativity = 16
+    block size =
+    cache size =
+    associativity =
 mystery3:
-    block size = 2 bytes
-    cache size = 131072 bytes
-    associativity = 2
+    block size =
+    cache size =
+    associativity =
 */
 
 #include <stdlib.h>
