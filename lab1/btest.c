@@ -32,7 +32,8 @@ float strtof(const char *nptr, char **endptr);
 
 /* Handle infinite loops by setting upper limit on execution time, in
    seconds */
-#define TIMEOUT_LIMIT 10
+//#define TIMEOUT_LIMIT 10
+#define TIMEOUT_LIMIT 1000
 
 /* For functions with a single argument, generate TEST_RANGE values
    above and below the min and max test values, and above and below
