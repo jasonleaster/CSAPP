@@ -267,7 +267,7 @@ int bang(int x) {
  *   Rating: 3
  */
 int conditional(int x, int y, int z) {
-	int ans = ((!!x)<<31) & y + ((!x)<<31) &z;
+	int ans = ((((!!x)<<31)>>31) & y) + ((((!x)<<31)>>31) &z);
 	return ans;
 }
 // Extra Credit: Rating: 4
